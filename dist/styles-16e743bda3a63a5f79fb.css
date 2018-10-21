@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+button {
+  all: unset;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer; }
+.light {
+  background: #fdf6e3; }
+  .light .themes__container--Q9whO {
+    background: #eee8d5;
+    color: #93a1a1; }
+  .light h1 {
+    color: #d33682; }
+  .light button {
+    background: #268bd2;
+    color: #fdf6e3; }
+
+.dark {
+  background: #002b36; }
+  .dark .themes__container--Q9whO {
+    background: #073642;
+    color: #839496; }
+  .dark h1 {
+    color: #d33682; }
+  .dark button {
+    background: #859900;
+    color: #fdf6e3; }
+  .dark .themes__logo--35_hM circle {
+    fill: #6c71c4; }
+  .dark .themes__logo--35_hM g {
+    stroke: #6c71c4; }
+.App__container--3x2f1 {
+  text-align: center;
+  border-radius: 10px;
+  width: 800px;
+  margin: auto;
+  transform: translateY(-100%);
+  padding: 0.5rem 0 2rem 0;
+  font-family: 'Calibri', 'Arial'; }
+
+.App__controls--1Zx2R {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 1rem;
+  max-width: 10rem; }
+
+.App__logo--35sHy {
+  width: 100px;
+  margin: auto; }
