@@ -1,1 +1,2 @@
-export const theme: string;
+export const container: string;
+export const logo: string;
