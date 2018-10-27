@@ -1,27 +1,29 @@
-:global(.dark) {
-  background: #002b36;
+:global {
+  .dark {
+    background: #002b36;
 
-  .container {
-    background: #073642;
-    color: #839496;
-  }
-
-  h1 {
-    color: #d33682;
-  }
-
-  button {
-    background: #859900;
-    color: #fdf6e3;
-  }
-
-  .logo {
-    circle {
-      fill: #6c71c4;
+    .container {
+      background: #073642;
+      color: #839496;
     }
 
-    g {
-      stroke: #6c71c4;
+    h1 {
+      color: #d33682;
+    }
+
+    button {
+      background: #859900;
+      color: #fdf6e3;
+    }
+
+    .logo {
+      circle {
+        fill: #6c71c4;
+      }
+
+      g {
+        stroke: #6c71c4;
+      }
     }
   }
 }

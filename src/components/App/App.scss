@@ -1,6 +1,4 @@
 .container {
-  composes: container from 'src/styles/themes.scss';
-
   text-align: center;
   border-radius: 10px;
   width: 800px;
@@ -19,8 +17,6 @@
 }
 
 .logo {
-  composes: logo from 'src/styles/themes.scss';
-
   width: 100px;
   margin: auto;
 }

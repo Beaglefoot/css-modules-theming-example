@@ -3,6 +3,7 @@ import * as ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import App from 'src/components/App/App';
 import 'src/styles/global.scss';
+import 'src/styles/themes.scss';
 
 document.body.classList.add('light');
 
